@@ -1,0 +1,14 @@
+{
+  "name": "vue-superplaceholder",  
+  "description": "Super placeholder for Vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBernal/vue-superplaceholder.git"
+  },
+  "keywords": [
+    "vuejs"
+  ],
+  "author": "David Bernal",
+  "license": "ISC",  
+  "homepage": "https://github.com/DavidBernal/vue-superplaceholder#readme"
+}
