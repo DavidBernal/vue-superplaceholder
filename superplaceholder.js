@@ -30,9 +30,10 @@ module.exports = Vue.directive('superplaceholder', function(placeholders){
                 type(word, position, listOfWords, indexOfWord);
             } else if( listOfWords && indexOfWord < listOfWords.length){
                 indexOfWord++;
-                setTimeout(function(){
+                newtimeout = setTimeout(function(){
                     type(listOfWords[indexOfWord], 0, listOfWords, indexOfWord);
                 }, 400)
+                self.timeouts.push(newTimeout);
             }
         }, 100)
         self.timeouts.push(newTimeout);
