@@ -24,7 +24,7 @@ module.exports = Vue.directive('superplaceholder', function(placeholders){
 
     function type(word, position, listOfWords, indexOfWord){
         var newTimeout = setTimeout(function(){
-            if(position <= word.length){
+            if(word && position <= word.length){
                 input.placeholder = word.substr(0, position) + (position === word.length?'':'|');
                 position++;
                 type(word, position, listOfWords, indexOfWord);
