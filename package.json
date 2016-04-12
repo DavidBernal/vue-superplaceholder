@@ -2,6 +2,7 @@
   "name": "vue-superplaceholder",
   "description": "Super placeholder for Vue",
   "version": "1.0.0",
+  "main": "superplaceholder.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidBernal/vue-superplaceholder.git"
@@ -11,5 +12,8 @@
   ],
   "author": "David Bernal",
   "license": "ISC",
-  "homepage": "https://github.com/DavidBernal/vue-superplaceholder#readme"
+  "homepage": "https://github.com/DavidBernal/vue-superplaceholder#readme",
+  "dependencies": {
+    "vue": "^1.0.17"
+  }
 }
